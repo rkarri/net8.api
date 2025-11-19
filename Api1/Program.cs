@@ -28,7 +28,7 @@ app.MapGet("/weatherforecast", () =>
 })
 .WithName("GetWeatherForecast");
 
-app.MapGet("/desc", () => "Az204 v1");
+app.MapGet("/desc", () => "Az204 v1.1");
 
 app.Run();
 
